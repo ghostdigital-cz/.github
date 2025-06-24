@@ -1,7 +1,7 @@
 <div align="center">
   
   <!-- 
-    You can replace the text with your logo. 
+    You can replace this with your logo. 
     For example: <img src="URL_TO_YOUR_LOGO" alt="Ghost Digital Group Logo" width="150"> 
   -->
   <h1>Welcome to Ghost Digital Group 👻</h1>
@@ -24,59 +24,34 @@ Hi there! We are **Ghost Digital Group**, a software company focused on building
 
 We love working with modern and efficient technologies to deliver the best possible products. Our primary toolkit includes:
 
-<p align="left">
-  <!-- Languages & Runtimes -->
-  <a href="https://www.php.net" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
-  </a>
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
-  </a>
-  
-  <!-- Backend Frameworks -->
-  <a href="https://laravel.com" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
-  </a>
-  <a href="https://nestjs.com/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS">
-  </a>
-  <a href="https://symfony.com" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white" alt="Symfony">
-  </a>
-  
-  <!-- Frontend & Fullstack -->
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
-  </a>
-  <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
-  </a>
-  <a href="https://trpc.io/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/tRPC-2596BE?style=for-the-badge&logo=trpc&logoColor=white" alt="tRPC">
-  </a>
-  
-  <!-- UI & Styling -->
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/tailwindcss-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
-  </a>
-  <a href="https://ui.shadcn.com/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" alt="Shadcn/UI">
-  </a>
-  <a href="https://daisyui.com/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/daisyui-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white" alt="DaisyUI">
-  </a>
-  
-  <!-- Databases & DevOps -->
-  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
-  </a>
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
-  </a>
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-  </a>
-</p>
+<!-- 
+  To set a max number of cells per line, we create a new table row (<tr>) 
+  for each line. This table is set to have 7 badges per row.
+-->
+<div align="center">
+  <table cellspacing="5" border="0">
+    <tr>
+      <!-- Row 1 -->
+      <td><a href="https://www.php.net" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"></a></td>
+      <td><a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"></a></td>
+      <td><a href="https://laravel.com" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"></a></td>
+      <td><a href="https://nestjs.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS"></a></td>
+      <td><a href="https://symfony.com" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white" alt="Symfony"></a></td>
+      <td><a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"></a></td>
+      <td><a href="https://nextjs.org/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"></a></td>
+    </tr>
+    <tr>
+      <!-- Row 2 -->
+      <td><a href="https://trpc.io/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/tRPC-2596BE?style=for-the-badge&logo=trpc&logoColor=white" alt="tRPC"></a></td>
+      <td><a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/tailwindcss-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"></a></td>
+      <td><a href="https://ui.shadcn.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" alt="Shadcn/UI"></a></td>
+      <td><a href="https://daisyui.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/daisyui-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white" alt="DaisyUI"></a></td>
+      <td><a href="https://www.postgresql.org" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"></a></td>
+      <td><a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"></a></td>
+      <td><a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a></td>
+    </tr>
+  </table>
+</div>
 
 ---
 
@@ -99,7 +74,7 @@ Feel free to explore, collaborate, and contribute.
 
 ### 📫 Connect With Us
 
-<p align="center">
+<div align="center">
   <a href="https://ghostdigital.cz" target="_blank">
     <img src="https://img.shields.io/badge/Website-ghostdigital.cz-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website">
   </a>
@@ -109,9 +84,9 @@ Feel free to explore, collaborate, and contribute.
   </a>
   &nbsp;
   <a href="mailto:viktor@ghostdigital.cz" target="_blank">
-    <img src="https://img.shields.io/badge/Customer_Care-Viktor-orange?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Customer Care">
+    <img src="https://img.shields.io/badge/Customer_Care-Email_Us-green?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Customer Care">
   </a>
-</p>
+</div>
 
 <div align="center">
   <p>Happy Coding!</p>
